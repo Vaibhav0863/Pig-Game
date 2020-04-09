@@ -1,0 +1,258 @@
+body {
+	background: #ffa41b;
+	font-family: "Montserrat", sans-serif;
+}
+.main-container {
+	position: relative;
+	width: 546px;
+	height: 419px;
+
+	background: #ffa41b;
+	border: 3.5px solid #000000;
+	border-radius: 10px;
+}
+.game-title {
+	position: absolute;
+	width: 196px;
+	height: 48px;
+	left: 175px;
+	top: 33px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 36px;
+	line-height: 44px;
+}
+
+.player-1 {
+	position: absolute;
+	margin-top: -14px;
+	width: 100px;
+	height: 15px;
+	left: 56px;
+	top: 96px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+	/* identical to box height */
+
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+}
+
+.player-2 {
+	position: absolute;
+	margin-top: -14px;
+	width: 61px;
+	height: 15px;
+	left: 430px;
+	top: 96px;
+
+	/* Button */
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+	/* identical to box height */
+
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+
+	color: #000000;
+}
+
+.player1 {
+	position: absolute;
+	width: 181px;
+	height: 213px;
+	left: 56px;
+	top: 100px;
+
+	background: #ef962d;
+}
+.player2 {
+	position: absolute;
+	width: 181px;
+	height: 213px;
+	left: 309px;
+	top: 100px;
+
+	background: #ef962d;
+}
+.btn-1 {
+	position: absolute;
+	width: 120px;
+	height: 38px;
+	left: 117px;
+	top: 342px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+
+	background: #ffeb99;
+}
+
+.btn-2 {
+	position: absolute;
+	width: 120px;
+	height: 38px;
+	left: 309px;
+	top: 341px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+
+	background: #ffeb99;
+}
+
+.dice {
+	position: absolute;
+	display: block;
+	width: 53px;
+	height: 56px;
+	left: 247px;
+	top: 192px;
+}
+
+.player1-point {
+	position: absolute;
+	margin-top: -14px;
+	margin-left: -8%;
+	width: 66px;
+	height: 117px;
+	left: 117px;
+	top: 162px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 85px;
+	line-height: 117px;
+	/* identical to box height */
+
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+}
+.player2-point {
+	position: absolute;
+	margin-top: -14px;
+	margin-left: -8%;
+	width: 66px;
+	height: 117px;
+	left: 361px;
+	top: 162px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 85px;
+	line-height: 117px;
+	/* identical to box height */
+
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+}
+
+.player1-score {
+	position: absolute;
+	margin-top: -14px;
+	width: 100px;
+	height: 15px;
+	left: 97px;
+	top: 305px;
+
+	/* Button */
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+	/* identical to box height */
+
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+}
+
+.player2-score {
+	position: absolute;
+	margin-top: -14px;
+	width: 100px;
+	height: 15px;
+	left: 349px;
+	top: 302px;
+
+	/* Button */
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+	/* identical to box height */
+
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+}
+
+.player1-status {
+	position: absolute;
+	margin-top: -14px;
+	left: 39.56%;
+	right: 58.24%;
+	top: 28.64%;
+	bottom: 68.5%;
+	fill: #61d4b3;
+}
+
+.player2-status {
+	position: absolute;
+	margin-top: -14px;
+	left: 58.06%;
+	right: 39.74%;
+	top: 28.64%;
+	bottom: 68.5%;
+
+	fill: #ff0000;
+}
+
+.message {
+	display: none;
+	position: absolute;
+	width: 470px;
+	height: 342px;
+	left: 38px;
+	top: 38px;
+	border-radius: 10px;
+
+	background: #97e5ef;
+}
+
+.reset-btn {
+	position: absolute;
+	width: 148px;
+	height: 39px;
+	margin: 60% 32%;
+	color: whitesmoke;
+	background: #363636;
+}
+
+.reset-btn:hover {
+	color: whitesmoke;
+}

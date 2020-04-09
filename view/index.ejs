@@ -1,0 +1,86 @@
+<div class="main-container container center mt-5">
+	<h1 class="game-title">PIG GAME</h1>
+
+	<div class="player1"></div>
+	<p class="player-1">PLAYER 1</p>
+	<p class="player1-point">0</p>
+	<svg
+		class="player1-status"
+		xmlns="http://www.w3.org/2000/svg"
+		viewBox="0 0 24 24"
+		fill="black"
+		width="18px"
+		height="18px"
+	>
+		<path d="M24 24H0V0h24v24z" fill="none" />
+		<circle cx="12" cy="12" r="8" />
+	</svg>
+
+	<p class="player-2">PLAYER 2</p>
+	<div class="player2"></div>
+	<p class="player2-point">0</p>
+	<svg
+		class="player2-status"
+		viewBox="0 0 24 24"
+		fill="black"
+		width="18px"
+		height="18px"
+	>
+		<path d="M24 24H0V0h24v24z" fill="none" />
+		<circle cx="12" cy="12" r="8" />
+	</svg>
+
+	<span class="player1-score">SCORE : 0</span>
+	<span class="player2-score">SCORE : 0</span>
+	<button class="btn-1 btn">ROLL DICE</button>
+	<button class="btn-2 btn">PASS</button>
+	<img class="dice" src="" alt="" />
+	<div class="message container">
+		<h1
+			style="
+				position: absolute;
+				width: 164px;
+				height: 44px;
+				margin: 15% 28%;
+				font-family: Montserrat;
+				font-style: normal;
+				font-weight: 800;
+				font-size: 36px;
+				line-height: 44px;
+				/* identical to box height */
+
+				display: flex;
+				align-items: center;
+				text-align: center;
+				text-transform: uppercase;
+			"
+		>
+			WINNER
+		</h1>
+
+		<h1
+			class="displayWinner"
+			style="
+				position: absolute;
+				width: 250px;
+				height: 59px;
+				margin: 30% 20%;
+
+				font-family: Montserrat;
+				font-style: normal;
+				font-weight: 800;
+				font-size: 48px;
+				line-height: 59px;
+				/* identical to box height */
+
+				display: flex;
+				align-items: center;
+				text-transform: uppercase;
+			"
+		>
+			PLAYER 2
+		</h1>
+
+		<button class="reset-btn btn">PLAY AGAIN</button>
+	</div>
+</div>
